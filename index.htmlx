@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10100e">
+<meta name="description" content="Discover gift-card promotions and digital reward offers for UK visitors. Review eligibility and terms before continuing.">
+<title>Reward Society | UK Gift Card Offers</title>
+<style>
+:root{--ink:#171711;--paper:#f5f0e5;--cream:#fffaf0;--gold:#d6b46b;--gold2:#f1d99b;--muted:#77766c;--line:rgba(39,37,28,.14);--green:#263d31}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif}a{color:inherit}.shell{width:min(1160px,calc(100% - 42px));margin:auto}
+.topbar{background:#11120f;color:#f8f1df;font-size:11px;letter-spacing:1.7px;text-transform:uppercase;text-align:center;padding:11px 14px}
+header{display:flex;justify-content:space-between;align-items:center;padding:23px 0;border-bottom:1px solid var(--line);gap:15px}
+.logo{display:flex;align-items:center;gap:11px;font-family:Georgia,serif;font-size:20px;letter-spacing:.5px;font-weight:bold}.seal{width:40px;height:40px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:#a47b2c;font-size:23px}
+.nav{display:flex;align-items:center;gap:24px;font-size:12px;color:#55564e}.nav a{text-decoration:none}.nav .nav-cta{padding:12px 17px;background:var(--ink);color:white;border-radius:2px;letter-spacing:.3px}
+.hero{display:grid;grid-template-columns:1.02fr .98fr;min-height:575px;align-items:center;gap:45px;padding:60px 0 66px}
+.kicker{font-size:10px;letter-spacing:2.8px;text-transform:uppercase;color:#8a6a2e;font-weight:800;display:flex;align-items:center;gap:10px}.kicker:before{content:"";height:1px;width:28px;background:var(--gold)}
+h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(47px,6vw,78px);line-height:.99;letter-spacing:-2.8px;font-weight:500;margin:22px 0 20px;max-width:590px}
+h1 em{font-weight:400;color:#9b783b}.intro{font-size:16px;line-height:1.85;color:#67675d;max-width:500px}
+.buttons{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;justify-content:center;align-items:center;gap:16px;min-height:53px;padding:0 23px;text-decoration:none;font-size:12px;font-weight:800;letter-spacing:.5px;border:1px solid var(--ink);transition:all .2s}
+.btn-primary{background:var(--ink);color:#fffaf0}.btn-primary:hover{background:var(--green);border-color:var(--green);transform:translateY(-2px)}.btn-secondary{color:var(--ink);background:transparent}.btn-secondary:hover{background:#e8dfcc}
+.fine{font-size:11px;line-height:1.7;color:#89877a;max-width:430px;margin-top:13px}
+.art{position:relative;min-height:420px;background:#e6dcc7;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.art:before{content:"";position:absolute;width:360px;height:360px;border:1px solid rgba(144,111,48,.28);border-radius:50%}
+.art:after{content:"";position:absolute;width:280px;height:280px;border:1px solid rgba(144,111,48,.23);border-radius:50%}
+.sun{position:absolute;top:34px;right:35px;width:95px;height:95px;border-radius:50%;background:#d9bf86;opacity:.62}
+.gift-stack{position:relative;width:320px;height:300px;z-index:2}
+.box-main{position:absolute;left:66px;top:118px;width:190px;height:145px;background:linear-gradient(135deg,#2c4637,#18291f);box-shadow:18px 22px 25px #6e624c45}
+.box-main:before{content:"";position:absolute;left:78px;top:0;width:33px;height:100%;background:linear-gradient(90deg,#c7a25c,#f1d99b,#b28b45)}
+.lid{position:absolute;left:52px;top:100px;width:218px;height:34px;background:linear-gradient(90deg,#365744,#243c2c);box-shadow:0 7px 10px #5248322e}
+.lid:before{content:"";position:absolute;left:93px;top:0;width:33px;height:100%;background:linear-gradient(90deg,#c7a25c,#f1d99b,#b28b45)}
+.bow{position:absolute;left:143px;top:58px;width:62px;height:47px;border:10px solid #c9a65e;border-radius:60% 60% 10% 60%;transform:rotate(23deg)}
+.bow:after{content:"";position:absolute;width:62px;height:47px;left:-57px;top:-6px;border:10px solid #dfc37f;border-radius:60% 60% 60% 10%;transform:rotate(-45deg)}
+.tag{position:absolute;right:4px;bottom:23px;background:#fffaf0;padding:15px 19px;box-shadow:0 12px 28px #4d412b25;z-index:3;transform:rotate(-3deg);border:1px solid #e5d6b6}
+.tag small{display:block;font-size:9px;letter-spacing:1.8px;color:#8a6a2e;text-transform:uppercase}.tag strong{display:block;font-family:Georgia,serif;font-size:20px;font-weight:500;margin-top:5px}
+.stamp{position:absolute;left:24px;bottom:24px;z-index:3;font-family:Georgia,serif;font-size:12px;letter-spacing:1px;color:#78653f;writing-mode:vertical-rl;transform:rotate(180deg)}
+.trustline{display:flex;justify-content:center;align-items:center;gap:25px;flex-wrap:wrap;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:10px;text-transform:uppercase;letter-spacing:1.4px;color:#747267}.trustline span{display:flex;gap:8px;align-items:center}.trustline b{color:#9b783b;font-size:15px}
+.section{padding:82px 0 75px}.section-head{text-align:center;max-width:650px;margin:0 auto 34px}.section-head .kicker{justify-content:center}.section-head .kicker:before{display:none}
+h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(33px,4vw,48px);font-weight:500;letter-spacing:-1.3px;margin:15px 0}.section-head p{color:#77766c;line-height:1.8;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--cream);border:1px solid #e2d8c5;padding:27px;min-height:290px;display:flex;flex-direction:column;align-items:flex-start;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 32px #5e4a2512}
+.card-icon{height:54px;width:54px;display:grid;place-items:center;border:1px solid #dfc995;color:#9b783b;font-size:26px}
+.card .label{font-size:9px;letter-spacing:1.8px;color:#a08145;text-transform:uppercase;margin-top:23px}
+.card h3{font-family:Georgia,serif;font-size:24px;font-weight:500;margin:9px 0}
+.card p{color:#77766c;font-size:13px;line-height:1.8;margin:0 0 22px}
+.card .btn{margin-top:auto;width:100%;min-height:47px}
+.steps-wrap{background:#202d24;color:#f6efdf;padding:55px 0}
+.steps-inner{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px;align-items:center}
+.steps-inner h2{font-size:clamp(32px,4vw,43px);margin:14px 0}.steps-inner .lead{color:#c2c6b9;font-size:13px;line-height:1.8}
+.steps{display:grid;gap:20px}.step{display:grid;grid-template-columns:38px 1fr;gap:15px;border-bottom:1px solid #ffffff1c;padding-bottom:18px}.step:last-child{border:0;padding-bottom:0}
+.step-no{width:34px;height:34px;border:1px solid #bda56e;border-radius:50%;display:grid;place-items:center;color:#e4cd93;font-family:Georgia,serif}
+.step h3{font-size:13px;margin:1px 0 6px}.step p{font-size:12px;line-height:1.7;color:#c2c6b9;margin:0}
+.disclosure{margin-top:28px;padding:17px 19px;border:1px solid #ffffff23;background:#ffffff08;color:#c5c8bd;font-size:11px;line-height:1.8}
+footer{padding:26px 0 35px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;color:#828074;font-size:11px;line-height:1.7}footer a{color:#6d5b35}
+@media(max-width:800px){.shell{width:calc(100% - 30px)}.nav a:not(.nav-cta){display:none}.hero{grid-template-columns:1fr;gap:30px;padding:43px 0}.art{min-height:365px}.gift-stack{transform:scale(.9)}.cards{grid-template-columns:1fr}.card{min-height:unset}.steps-inner{grid-template-columns:1fr;gap:28px}.section{padding:60px 0}.trustline{gap:13px;font-size:9px}}
+@media(max-width:420px){h1{font-size:47px}.art{min-height:320px}.gift-stack{transform:scale(.78)}.tag{right:8px;bottom:12px}.stamp{left:13px}.logo{font-size:17px}.btn{padding:0 16px}}
+</style>
+</head>
+<body>
+<div class="topbar">A considered collection of gift-card &amp; digital reward offers</div>
+<header class="shell">
+  <a class="logo" href="#" aria-label="Reward Society home" style="text-decoration:none"><span class="seal">✦</span><span>REWARD SOCIETY</span></a>
+  <nav class="nav" aria-label="Main navigation"><a href="#categories">Categories</a><a href="#how-it-works">How it works</a><a class="nav-cta" href="https://www.profitableratecpmnetwork.com/dqaurdq0?key=12fbed8788af53407d268bf13ccd8e82" target="_blank" rel="nofollow sponsored noopener noreferrer">Discover offers ↗</a></nav>
+</header>
+<main>
+<section class="hero shell">
+  <div>
+    <div class="kicker">The UK rewards edit</div>
+    <h1>A little something <em>worth discovering.</em></h1>
+    <p class="intro">Explore gift-card promotions, digital rewards and selected offers for UK visitors. Find an offer that interests you, then check the details and eligibility with the provider.</p>
+    <div class="buttons">
+      <a class="btn btn-primary" href="https://www.profitableratecpmnetwork.com/dqaurdq0?key=12fbed8788af53407d268bf13ccd8e82" target="_blank" rel="nofollow sponsored noopener noreferrer">DISCOVER REWARDS <span>↗</span></a>
+      <a class="btn btn-secondary" href="#categories">BROWSE CATEGORIES ↓</a>
+    </div>
+    <p class="fine">Offer availability and eligibility vary. Always review the provider’s terms before proceeding. No reward is guaranteed by this page.</p>
+  </div>
+  <div class="art" aria-label="Decorative premium gift box illustration">
+    <div class="sun"></div><div class="stamp">A GIFT OF POSSIBILITY</div>
+    <div class="gift-stack"><div class="box-main"></div><div class="lid"></div><div class="bow"></div></div>
+    <div class="tag"><small>Curated for discovery</small><strong>Gifts. Rewards. Possibilities.</strong></div>
+  </div>
+</section>
+<div class="trustline shell"><span><b>✦</b> Gift card offers</span><span><b>✦</b> Digital rewards</span><span><b>✦</b> Third-party promotions</span><span><b>✦</b> Terms apply</span></div>
+<section class="section shell" id="categories">
+  <div class="section-head"><div class="kicker">Explore the collection</div><h2>Find your kind of reward.</h2><p>Browse a category to continue to the offer page. Read the full conditions first, including any costs, eligibility rules and actions required.</p></div>
+  <div class="cards">
+    <article class="card"><div class="card-icon" aria-hidden="true">◇</div><div class="label">01 / Shopping</div><h3>Gift Card Offers</h3><p>Discover gift-card-related promotions and check participating brands, restrictions and redemption terms on the provider’s page.</p><a class="btn btn-primary" href="https://www.profitableratecpmnetwork.com/dqaurdq0?key=12fbed8788af53407d268bf13ccd8e82" target="_blank" rel="nofollow sponsored noopener noreferrer">VIEW GIFT CARD OFFERS ↗</a></article>
+    <article class="card"><div class="card-icon" aria-hidden="true">✧</div><div class="label">02 / Online</div><h3>Digital Rewards</h3><p>Explore online reward opportunities and review any steps or eligibility checks required by the individual offer.</p><a class="btn btn-primary" href="https://www.profitableratecpmnetwork.com/dqaurdq0?key=12fbed8788af53407d268bf13ccd8e82" target="_blank" rel="nofollow sponsored noopener noreferrer">EXPLORE REWARDS ↗</a></article>
+    <article class="card"><div class="card-icon" aria-hidden="true">✦</div><div class="label">03 / Featured</div><h3>Special Promotions</h3><p>Visit the offer destination to see current promotions, location availability and the provider’s full terms.</p><a class="btn btn-primary" href="https://www.profitableratecpmnetwork.com/dqaurdq0?key=12fbed8788af53407d268bf13ccd8e82" target="_blank" rel="nofollow sponsored noopener noreferrer">SEE PROMOTIONS ↗</a></article>
+  </div>
+</section>
+<section class="steps-wrap" id="how-it-works"><div class="shell steps-inner">
+  <div><div class="kicker" style="color:#e2c77f">A simple guide</div><h2>Discover with confidence.</h2><p class="lead">Take a moment to understand each offer before you decide whether to continue.</p></div>
+  <div class="steps">
+    <div class="step"><div class="step-no">1</div><div><h3>Explore an offer</h3><p>Use one of the buttons to open the third-party offer destination.</p></div></div>
+    <div class="step"><div class="step-no">2</div><div><h3>Read the requirements</h3><p>Check eligibility, country restrictions, costs, privacy details and any actions required.</p></div></div>
+    <div class="step"><div class="step-no">3</div><div><h3>Make an informed choice</h3><p>Continue only if you understand and agree with the provider’s conditions.</p></div></div>
+  </div>
+</div></section>
+<section class="shell"><div class="disclosure"><strong>Transparency notice:</strong> Reward Society is an independent promotional landing page and is not affiliated with or endorsed by the UK government or any retailer or gift-card brand. Links on this page may be advertising or affiliate links and may generate revenue for the publisher. This page does not guarantee a gift card, cash payment or other reward. The third-party provider controls offer availability, eligibility, requirements and terms. Be cautious with requests for payment or sensitive personal information and verify the provider before sharing details.</div></section>
+</main>
+<footer class="shell"><span>© <span id="year">2026</span> Reward Society · Independent offer discovery</span><span><a href="#categories">Browse categories</a> &nbsp;·&nbsp; Review all offer terms before continuing</span></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
